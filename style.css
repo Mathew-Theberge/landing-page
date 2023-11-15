@@ -55,3 +55,14 @@ a {
   border: 4px #3882f6 solid;
   border-radius: 16px;
 }
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+.quote-by {
+  font-size: 16px;
+}
