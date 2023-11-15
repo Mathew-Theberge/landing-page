@@ -117,3 +117,12 @@ a {
 }
 
 
+
+          /* flexbox and positioning */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
