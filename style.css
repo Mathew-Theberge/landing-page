@@ -165,3 +165,27 @@ ul {
   display: flex;
   align-items: center;
 }
+
+
+                 /* flexbox for info section  */
+
+.info-section-cards {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 8px;
+}
