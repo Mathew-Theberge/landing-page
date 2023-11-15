@@ -24,6 +24,7 @@ a {
   color: #e5e7eb;
   margin: 0;
   padding: 0;
+  margin-bottom: 12px;
 }
 
 .header-logo-text {
@@ -154,8 +155,8 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-top: 16px;
 }
-
 ul {
   display: flex;
   gap: 16px;
@@ -164,29 +165,42 @@ ul {
 .top-section-content {
   display: flex;
   align-items: center;
+  padding: 96px;
+  justify-content: center;
+  gap: 32px;
 }
+
+.top-left-content {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  flex: 0 1 auto;
+}
+
 
 
                  /* flexbox for info section  */
 
 .info-section-cards {
   display: flex;
-  gap: 48px;
+  gap: 72px;
   justify-content: center;
   flex-wrap: wrap;
-
+    margin-top: 24px;
 }
 
 .info-section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 24px;
+  margin-bottom: 64px;
 }
 
 .info-card {
   display: flex;
   flex-direction: column;
-  flex: 1;
+  flex: 0 1 150px;
   gap: 8px;
 }
 
@@ -197,7 +211,7 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 64px;
+  padding: 128px 256px;
 }
 .quote-by {
   align-self: flex-end;
