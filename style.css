@@ -211,3 +211,10 @@ ul {
   padding: 32px;
   margin: 48px 96px;
 }
+
+                       /* footer */
+              
+.footer {
+  text-align: center;
+  padding: 16px;
+}
