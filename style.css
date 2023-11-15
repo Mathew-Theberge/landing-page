@@ -116,7 +116,23 @@ a {
   padding: 0;
 }
 
+               /* main div container styling */
 
+.top-section {
+  background-color: #1f2937;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+}
+
+.bottom-section {
+  background-color: #3882f6;
+}
+
+.footer {
+  background-color: #1f2937;
+}
 
           /* flexbox and positioning */
 
