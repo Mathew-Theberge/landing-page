@@ -189,3 +189,16 @@ ul {
   flex: 1;
   gap: 8px;
 }
+
+                 /* flexbox for quote section */
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 64px;
+}
+.quote-by {
+  align-self: flex-end;
+}
