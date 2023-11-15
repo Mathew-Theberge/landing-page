@@ -202,3 +202,12 @@ ul {
 .quote-by {
   align-self: flex-end;
 }
+
+                   /* flexbox for bottom section */
+
+.bottom-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 32px;
+  margin: 48px 96px;
+}
