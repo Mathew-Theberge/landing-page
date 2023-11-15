@@ -41,6 +41,13 @@ a {
   padding: 0;
 }
 
+.top-image {
+  width: 400px;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+}
+
 .button {
   background-color: #3882f6;
   color: white;
