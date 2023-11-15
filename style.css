@@ -148,4 +148,20 @@ body {
   flex-direction: column;
 }
 
+              /* flexbox for top section */
 
+.top-section-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+}
+
+.top-section-content {
+  display: flex;
+  align-items: center;
+}
